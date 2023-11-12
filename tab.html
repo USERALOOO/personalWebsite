@@ -1,0 +1,74 @@
+<html>
+
+    <head>
+        <style>
+            body {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                background-color: lightgray;
+            }
+            
+            ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20pt;
+                margin-left: 60px;
+                gap: 350px;
+            }
+
+            li div {
+               width:0px;
+               height:2px;
+               background-color: black;
+               transition: all 500ms linear;
+
+            }
+
+            li {
+                list-style: none;
+            }
+
+           
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .home:hover div {
+                width: 65px;
+            }
+
+            .scene:hover div {
+                width: 165px;
+            }
+
+            .thing:hover div {
+                
+                width: 170px;
+            }
+
+            a:hover {
+                color: white;
+            }
+
+           
+
+            
+
+
+           
+
+            
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li class="home"><a href="home.html" target="home">Home</a> <div></div></li>
+            <li  class="scene"><a href="place.html" target="home">Favourite Place</a><div></div></li>
+            <li class="thing"><a href="thing.html" target="home">Favourite Thing</a><div></div></li>
+        </ul> 
+    </body>
+</html>
